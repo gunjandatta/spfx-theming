@@ -1,0 +1,39 @@
+{
+  "name": "spfx-theming",
+  "version": "1.0.0",
+  "description": "An example project that uses the current theme of a classic or modern page.",
+  "main": "src/index.ts",
+  "scripts": {
+    "all": "npm run build && npm run prod",
+    "build": "webpack --mode=development",
+    "prod": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunjandatta/spfx-theming.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gunjandatta/spfx-theming/issues"
+  },
+  "homepage": "https://github.com/gunjandatta/spfx-theming#readme",
+  "dependencies": {
+    "gd-sprest-bs": "^10.10.17"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "html-loader": "^4.2.0",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2"
+  }
+}
